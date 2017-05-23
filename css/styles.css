@@ -1,4 +1,44 @@
-.col-sm-12, input{
+.col-sm-12{
 	margin-bottom: 15px;
 }
 
+.btn{
+	margin-top: 15px;
+}
+
+body{
+	overflow: hidden;
+}
+
+#pages{
+	width: 200%;
+}
+
+#page-1,#page-2{
+	width: 100vw;
+	height: 100vh;
+	float: left;
+	position: relative;
+	right: 0px;
+	transition: all 3s;
+}
+
+#arrow1, #arrow2{
+	position: absolute;
+	top: 50%;
+	background-color: red;
+	color: white;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#arrow1{
+	right: 0px;
+}
+
+#arrow2{
+	left: 0px;
+}
